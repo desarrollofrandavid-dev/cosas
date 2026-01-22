@@ -15,6 +15,7 @@ private final CellState[][] grid;
                 grid[r][c]= CellState.EMPTY;
             }
 
+
         }
 
 
