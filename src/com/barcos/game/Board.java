@@ -1,8 +1,10 @@
 package com.barcos.game;
 
 public class Board {
+
     private final int size;
     private final CellState[][] grid;
+
 
     public Board(int size) {
         this.size = size;
@@ -14,6 +16,30 @@ public class Board {
             }
         }
     }
+
+    public boolean isInside(int row, int col){
+        return row >=0 && row< size && col >= 0 && col< size;
+
+    }
+
+    public boolean placeShipCell(int row, int col){
+
+        if (isInside(row, col)) &&
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     public String render(boolean showShips) {
         StringBuilder sb = new StringBuilder();
@@ -36,16 +62,14 @@ public class Board {
             sb.append("\n");
         }
 
-
-
-
-
-
-
-
-
-
         return sb.toString();
     }
+
+
+
+
+
+
+
 }
 
