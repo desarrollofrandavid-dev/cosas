@@ -19,6 +19,7 @@ private final CellState[][] grid;
         }
 
 
+
     }
 
     public String render(){
