@@ -75,6 +75,18 @@ public class Board {
 
 
 
+    private boolean isShipAround(int row, int col) {
+
+
+
+
+
+
+
+    }
+
+
+
 
 
 
